@@ -1,0 +1,67 @@
+* {
+    font-family: 'Heebo', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Landing */
+
+#landing {
+    background-color: #FF5714;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+#landingHeader, #landingDate {
+    padding-left: 20%;
+    padding-right: 25%;
+}
+
+#landingHeader {
+    padding-top: 200px;
+    font-size: 170px;
+    line-height: 124px;
+    font-family: 'Koulen', cursive;
+}
+
+#landingDate {
+    font-size: 40px;
+}
+
+/* Intro */
+
+#intro {
+    width: 100%;
+    background-color: #FF5714;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#introBox {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 40px;
+    background-color: black;
+}
+
+#introDateLocation {
+    font-family: 'Koulen', cursive;
+    font-size: 25px;
+}
+
+#introDescription {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
