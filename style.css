@@ -8,6 +8,13 @@ html, body {
     padding: 0;
 }
 
+.smallHeader {
+    font-family: 'Koulen', cursive;
+    font-size: 60px;
+    text-align: center;
+    width: 100%;
+}
+
 /* Landing */
 
 #landing {
@@ -24,8 +31,8 @@ html, body {
 
 #landingHeader {
     padding-top: 200px;
-    font-size: 170px;
     line-height: 124px;
+    font-size: 170px;
     font-family: 'Koulen', cursive;
 }
 
@@ -40,7 +47,7 @@ html, body {
     background-color: #FF5714;
     color: white;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 
 #introBox {
@@ -59,9 +66,70 @@ html, body {
     margin-top: 30px;
 }
 
+/* Sponsors */
 
+#sponsors {
+    width: 100%;
+    background-color: #FF5714;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
 
+#sponsorHeader {
+    background-color: #FF5714;
+    color: white;
+}
 
+#sponsorsLogos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.logo img {
+    height: 200px;
+}
 
+.logo {
+    padding: 30px;
+}
 
+/* Films */
+
+#filmsHeader {
+    padding-top: 100px;
+}
+
+#films {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.film {
+    width: 33.3333%;
+    margin-bottom: 70px;
+}
+
+.filmTitle {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+.poster {
+    display: flex;
+    justify-content: center;
+    height: 410px;
+}
+
+.poster img {
+    width: 75%;
+}
