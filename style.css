@@ -6,6 +6,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
+    cursor: default;
 }
 
 .smallHeader {
@@ -20,7 +21,7 @@ html, body {
 #landing {
     background-color: #FF5714;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     color: white;
 }
 
@@ -51,10 +52,16 @@ html, body {
 }
 
 #introBox {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
     padding: 40px;
     background-color: black;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#introBox > div {
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 #introDateLocation {
@@ -136,4 +143,86 @@ html, body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media only screen and (max-width: 2000px) {
+    #films {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    #films {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    #landingHeader {
+        font-size: 140px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #films {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    #landingHeader {
+        font-size: 120px;
+        line-height: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #films {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    #landingHeader {
+        font-size: 100px;
+    }
+
+    #landingHeader, #landingDate {
+        padding-left: 10%;
+        padding-right: 15%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #films {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .film {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #films {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .film {
+        width: 100%;
+    }
+
+    #landingHeader {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    #landingDate {
+        font-size: 30px;
+    }
+
+    #landingHeader, #landingDate {
+        padding-left: 10%;
+        padding-right: 15%;
+    }
 }
