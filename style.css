@@ -145,6 +145,75 @@ html, body {
     object-fit: cover;
 }
 
+/* Footer */
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer * {
+    color: white;
+    font-family: 'Koulen', cursive;
+    letter-spacing: .2rem;
+}
+
+#festivalLogo {
+    width: 50%;
+}
+
+#festivalLogo img {
+    width: 200px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#newsletter {
+    width: 50%;
+    padding-top: 50px;
+}
+
+#newsletterInputContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#newsletterInput {
+    width: 300px;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 2px white solid;
+    border-radius: 5px;
+    align-items: center;
+}
+
+#newsletterButton {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    cursor: pointer;
+    transition: .3s ease-in;
+    align-self: center;
+    border-radius: 2px;
+    width: 110px;
+    text-align: center;
+}
+
+.newsletterButtonHover:hover {
+    background-color:  #FF5714;
+    color: white;
+}
+
+#legal {
+    width: 100%;
+    padding-left: 55px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
 @media only screen and (max-width: 2000px) {
     #films {
         margin-left: 15%;
@@ -179,6 +248,7 @@ html, body {
     #films {
         margin-left: 0%;
         margin-right: 0%;
+        padding-bottom: 50px;
     }
 
     #landingHeader {
@@ -188,6 +258,10 @@ html, body {
     #landingHeader, #landingDate {
         padding-left: 10%;
         padding-right: 15%;
+    }
+
+    #festivalLogo {
+        width: 30%;
     }
 }
 
@@ -200,12 +274,45 @@ html, body {
     .film {
         width: 50%;
     }
+
+    #sponsorsLogos {
+        flex-flow: column;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #festivalLogo {
+        width: 100%;
+    }
+
+    #newsletter {
+        margin: auto;
+    }
+
+    #newsletterInputContainer {
+        flex-wrap: inherit;
+    }
+
+    #newsletterButton {
+        width: 50%;
+        text-align: center;
+    }
+
+    #legal {
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     #films {
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .film {
@@ -224,5 +331,68 @@ html, body {
     #landingHeader, #landingDate {
         padding-left: 10%;
         padding-right: 15%;
+    }
+
+    #intro {
+        padding-top: 0;
+        padding-bottom: 100px;
+    }
+
+    #introBox {
+        margin-left: 0;
+        padding: 60px;
+        padding-left: 0;
+        padding-right: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .logo img {
+        max-width: 100%;
+    }
+
+    .smallHeader {
+        line-height: 54px;
+    }
+
+    #sponsorHeader {
+        padding-bottom: 30px;
+    }
+
+    #sponsors {
+        padding-bottom: 70px;
+    }
+
+    #newsletter {
+        width: 75%;
+    }
+
+    #newsletterInputContainer {
+        flex-wrap: wrap;
+    }
+
+    #newsletterInput {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .film {
+        width: 100%;
+    }
+
+    #landingHeader {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    #landingDate {
+        font-size: 30px;
+    }
+
+    #landingHeader, #landingDate {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
