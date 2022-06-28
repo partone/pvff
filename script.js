@@ -1,15 +1,3 @@
-const filmTitles = [
-  "Chilangolandia",
-  "La Mami",
-  "Selva Trágica",
-  "La Vocera",
-  "Prayers for the Stolen",
-  "His Game of Lives",
-  "Sin Señas Particulares",
-  "Una Película de Policias",
-  "Los Lobos",
-];
-
 const toCamelCase = function (string) {
   return string.replace(/\s+(.)/g, function (match, group) {
     return group.toUpperCase();
@@ -41,3 +29,27 @@ $(document).ready(function () {
     btn.text("Subscribed!");
   });
 });
+
+const filmTitles = [
+  "Chilangolandia",
+  "La Mami",
+  "Selva Trágica",
+  "La Vocera",
+  "Prayers for the Stolen",
+  "His Game of Lives",
+  "Sin Señas Particulares",
+  "Una Película de Policias",
+  "Los Lobos",
+];
+
+const filmDescriptions = {
+  chialngolandia: 'Director Carlos Santos brings us a complex collection of tales, all brought together through the ever-moving, ever-sprawling Mexico City metropolis.  "Multi-stranded", "winding", and "hilarious" - a promising feature from a relatively new director and cast.',
+  laMami: 'Director Laura Herrero Garvin presents an unfiltered and close-to-the-heart documentary of the young entertainers at Cabaret Barba Azul.  A surprising spectrum of human emotions emerges from the dank, and often sinister, crevices of the world of late night adult entertainment - "intimate, often amusing, invariably informative".',
+  selvaTrágica: 'Yulene Olaizola',
+  laVocera: 'Luciana Kaplan',
+  prayersForTheStolen: 'Tatiana Huezo',
+  hisGameOfLives: 'Eric Parton',
+  sinSeñasParticulares: 'Fernanda Valadez',
+  unaPelículaDePolicias: 'Alonso Ruizpalacios',
+  losLobos: 'Samuel Kishi Leopo',
+}

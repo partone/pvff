@@ -145,6 +145,62 @@ html, body {
     object-fit: cover;
 }
 
+/* Film Overlay */
+
+#filmOverlay, #filmSelection {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#filmOverlay {
+    background-image: radial-gradient(#222, black);
+    opacity: .9;
+}
+
+#filmSelection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#directorImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+#directorImage img {
+    height: auto;
+    width: auto;
+    max-width: 90%;
+}
+
+#directorDescription {
+    width: 35%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#filmSelectionTitle {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 60px;
+    letter-spacing: 26px;
+    text-transform: uppercase;
+}
+
 /* Footer */
 
 footer {
@@ -242,6 +298,15 @@ footer * {
         font-size: 120px;
         line-height: 100px;
     }
+
+    #filmSelection {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #directorDescription {
+        width: 60%;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -306,6 +371,36 @@ footer * {
         padding-left: 5%;
         padding-right: 5%;
         text-align: center;
+    }
+
+    #filmSelectionTitle {
+        bottom: 35px;
+        font-size: 40px;
+        letter-spacing: 12px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #directorImage {
+        width: 90%;
+    }
+
+    #directorDescription {
+        width: 90%;
+        align-items: baseline;
+        margin-top: 50px;
+    }
+
+    #directorImage {
+        max-width: default;
+        width: 90%;
+        height: 200px;
+        overflow: hidden;
+        margin-top: 50px;
+    }
+
+    #directorImage img {
+        width: 200px;
     }
 }
 
@@ -375,6 +470,14 @@ footer * {
         margin: 0;
         margin-bottom: 10px;
     }
+
+    #filmSelectionTitle {
+        display: none;
+    }
+
+    #directorDescription {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -394,5 +497,9 @@ footer * {
     #landingHeader, #landingDate {
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    #directorDescription {
+        font-size: 12px;
     }
 }
