@@ -202,7 +202,7 @@ html, body {
 }
 
 .hiddenFilmSelection {
-    display: none;
+    display: none !important;
 }
 
 /* Footer */
