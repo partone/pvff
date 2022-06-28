@@ -201,6 +201,10 @@ html, body {
     text-transform: uppercase;
 }
 
+.hiddenFilmSelection {
+    display: none;
+}
+
 /* Footer */
 
 footer {
