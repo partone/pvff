@@ -180,12 +180,11 @@ html, body {
     max-width: 90%;
 }
 
-#directorDescription {
+#filmInfo {
     width: 35%;
     height: 100vh;
     color: white;
     display: flex;
-    text-align: center;
     align-items: center;
 }
 
@@ -202,7 +201,7 @@ html, body {
 }
 
 .hiddenFilmSelection {
-    display: none !important;
+    /*display: none !important; */
 }
 
 /* Footer */
@@ -308,7 +307,7 @@ footer * {
         margin-right: 5%;
     }
 
-    #directorDescription {
+    #filmInfo {
         width: 60%;
     }
 }
@@ -389,7 +388,7 @@ footer * {
         width: 90%;
     }
 
-    #directorDescription {
+    #filmInfo {
         width: 90%;
         align-items: baseline;
         margin-top: 50px;
@@ -479,7 +478,7 @@ footer * {
         display: none;
     }
 
-    #directorDescription {
+    #filmInfo {
         font-size: 15px;
     }
 }
@@ -503,7 +502,7 @@ footer * {
         padding-right: 5%;
     }
 
-    #directorDescription {
+    #filmInfo {
         font-size: 12px;
     }
 }
