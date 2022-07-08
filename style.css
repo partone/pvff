@@ -444,6 +444,10 @@ footer * {
         overflow: hidden;
         margin-top: 50px;
     }
+
+    #filmSelectionTitle {
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -472,7 +476,7 @@ footer * {
 
     #intro {
         padding-top: 0;
-        padding-bottom: 100px;
+        padding-bottom: 0;
     }
 
     #introBox {
