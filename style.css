@@ -77,15 +77,22 @@ html, body {
 
 #sponsors {
     width: 100%;
-    background-color: #FF5714;
     display: flex;
     justify-content: center;
-    padding-bottom: 150px;
 }
 
 #sponsorHeader {
-    background-color: #FF5714;
     color: white;
+    padding-top: 150px;
+}
+
+#sponsors, #sponsorsHeader {
+    z-index: 1;
+}
+
+#sponsorContainer {
+    position: relative;
+    padding-bottom: 150px;
 }
 
 #sponsorsLogos {
@@ -101,6 +108,18 @@ html, body {
 
 .logo {
     padding: 30px;
+}
+
+.parallax {
+    background-image: url('images/reel.jpg');
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
 }
 
 /* Films */
@@ -151,7 +170,7 @@ html, body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -171,7 +190,10 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    align-self: center;
+    height: 400px;
+    width: 300px;
+    margin-right: 20px;
 }
 
 #directorImage img {
@@ -198,10 +220,6 @@ html, body {
     font-size: 60px;
     letter-spacing: 26px;
     text-transform: uppercase;
-}
-
-.hiddenFilmSelection {
-    /*display: none !important; */
 }
 
 /* Footer */
@@ -381,13 +399,39 @@ footer * {
         font-size: 40px;
         letter-spacing: 12px;
     }
+
+    #directorImage {
+        margin-top: 20px;
+        margin-right: 0;
+        width: 100%;
+        height: 150px;
+    }
+
+    #directorImage img {
+        max-width: auto;
+        height: 150px;
+    }
+
+    #filmInfo {
+        align-items: baseline;
+        text-align: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+
+    #filmSelection {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #directorImage img {
+        width: auto;
+    }
 }
 
 @media only screen and (max-width: 800px) {
-    #directorImage {
-        width: 90%;
-    }
-
     #filmInfo {
         width: 90%;
         align-items: baseline;
@@ -396,14 +440,9 @@ footer * {
 
     #directorImage {
         max-width: default;
-        width: 90%;
         height: 200px;
         overflow: hidden;
         margin-top: 50px;
-    }
-
-    #directorImage img {
-        width: 200px;
     }
 }
 
@@ -472,10 +511,6 @@ footer * {
     #newsletterInput {
         margin: 0;
         margin-bottom: 10px;
-    }
-
-    #filmSelectionTitle {
-        display: none;
     }
 
     #filmInfo {
