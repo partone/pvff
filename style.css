@@ -140,6 +140,7 @@ html, body {
 .film {
     width: 33.3333%;
     margin-bottom: 70px;
+    cursor: pointer;
 }
 
 .filmTitle {
@@ -289,6 +290,7 @@ footer * {
     padding-left: 55px;
     padding-top: 100px;
     padding-bottom: 30px;
+    cursor: auto;
 }
 
 @media only screen and (max-width: 2000px) {
