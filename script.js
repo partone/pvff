@@ -86,7 +86,7 @@ const filmDescriptions = {
   prayersForTheStolen:
     "Prayers for the Stolen (Noche de fuego) follows the upbringing of three girls in a rural and violent Mexican town.  They must quickly learn how to adapt in a place where grown-women can't walk the streets during the day, letalone at night.  A sad yet redeeming story of hardship.<br><br>Runtime: 111m<br>Genre: Drama<br>Director: Tatiana Huezo",
   hisGameOfLives:
-    "A bartender and DJ work together to manipulate the social scene of a Mexican tourist town nightclub. Casual favors soon evolve into serious blackmail and the DJ becomes an unwilling accomplice while searching for a way out.  An intricate narrative with more than meets the eye.<br><br>Runtime: 106m<br>Genre: Drama<br>Director: Eric Parton",
+    "A bartender and DJ work together to manipulate the social scene of a New York City nightclub. Casual favors soon evolve into serious blackmail and the DJ becomes an unwilling accomplice while searching for a way out.  An intricate narrative with more than meets the eye.<br><br>Runtime: 106m<br>Genre: Drama<br>Director: Eric Parton",
   sinSeñasParticulares:
     "The gut-wrenching story of a mother's search for her son.  Distrusting official accounts of the death of her son, Magdalena takes up the dangerous and arduous across the US-Mexican border to find out the whereabouts of her son for herself.<br><br>Runtime: 95m<br>Genre: Drama<br>Director: Fernanda Valadez",
   unaPelículaDePolicias:
